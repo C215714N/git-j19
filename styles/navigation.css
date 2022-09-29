@@ -1,0 +1,34 @@
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: .5rem;
+    background: linear-gradient(
+        to right,
+        #448,
+        #c36
+    );
+}
+.menu a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #eee;
+    text-decoration: none;
+}
+.menu a::before{
+    font-size: 2rem;
+}
+.menu [href="#"]::before{
+    content: '🏠'
+}
+.menu [href="#about"]::before{
+    content: '🌁'
+}
+.menu [href="#services"]::before{
+    content: '🖨️'
+}
+.menu [href="#contact"]::before{
+    content: '👨‍🏫'
+}
