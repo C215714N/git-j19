@@ -1,14 +1,21 @@
-.menu{
+nav{
+    max-width: 10rem;
+    height: 100vh;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
-    margin: 0;
     padding: .5rem;
     background: linear-gradient(
         to right,
         #448,
         #c36
     );
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .menu a{
     display: flex;
