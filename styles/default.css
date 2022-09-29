@@ -8,4 +8,52 @@
 
 /* Contenido */
 
+/* lenguages */
+#lenguages{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10rem;
+
+}
+
+article{
+
+    background-color: gray;
+    height: 20rem;
+    width: 10rem;
+
+}
+
+article h2{
+
+    text-align: center;
+
+}
+
+#html h2{
+
+    color: orange;
+
+}
+
+#css h2{
+
+    color: blue;
+
+}
+
+#js h2{
+
+    color: yellow;
+
+}
+
+article p{
+
+    text-align: center;
+
+}
+
 /* Pie de Pagina */
