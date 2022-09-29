@@ -9,6 +9,13 @@
 /* Contenido */
 
 /* lenguages */
+
+main{
+
+    height: 50rem;
+
+}
+
 #languages{
 
     display: flex;
@@ -63,6 +70,13 @@
 
     background-color: black;
     color: white;
+
+}
+
+footer{
+
+    display: flex;
+    justify-content: center;
 
 }
 
