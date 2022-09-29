@@ -1,0 +1,15 @@
+# Archivos
+log-*.*
+blame-*.*
+*.tmp
+*.temp
+*.map
+*.swp
+~*.*
+
+# Carpetas
+.vscode/
+node_modules/
+temp/
+tmp/
+docs/
