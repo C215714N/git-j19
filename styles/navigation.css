@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background: linear-gradient(
+        #448,
+        #c36
+    );
+}
+nav a{
+    color: #eee;
+    text-decoration: none;
+}
+.menu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+[class*="btn-"]{
+    border-radius: .25rem;
+    border: 1px solid;
+    padding: .5rem 1rem;
+    color: #eee;
+    background-color: transparent;
+}
+[class*="btn"]:hover{
+    color: #448;
+    background-color: #eee;
+}
+.btn-open::before{
+    content: '\2630';
+}
